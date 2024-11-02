@@ -1,10 +1,9 @@
 # Ignore node_modules in both client and server
 node_modules
-frontend/node_modules
-backend/node_modules
+server/node_modules
+client/node_modules
 
-# Ignore .env files
 .env
 
 # Ignore build files if you plan to deploy separately
-frontend/build
+client/build
